@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1052&q=80");
+    background-size: cover;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-family: 'Monoton', "Times New Roman", cursive;
+    font-size: 70px;
+    margin: 0.2em;
+    color: #001f3f;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    color: white;
+  }
+
+h2:first-of-type {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
+    padding: 10px;
+    margin: 0.5em;
+    color: white;
+  }
+.pickColor {
+  font-size: 72px;
+ background: -webkit-linear-gradient(#0074D9, #7FDBFF, #FFDC00, #F012BE, #01FF70);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ }
+table,
+tr,
+td {
+    border: 1px solid black;
+    }
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    cursor: pointer;
+    }
+
+tr {
+    height: 20px;
+  }
+
+td {
+    width: 20px;
+  }
+
+input[type=number] {
+    width: 6em;
+    height: 1.7em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+#sizePicker {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+.main {
+  background: linear-gradient(#DDDDDD, #AAAAAA, #001f3f);
+  opacity: 0.8;
+  padding: 20px;
+  margin: 20px 350px 10px 350px;
+}
+.button {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  height: 2em;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #AAAAAA;
+  color: white;
+}
+#colorPicker {
+  cursor: pointer;
+  height: 2.5em;
+  width: 4.5em;
+}
